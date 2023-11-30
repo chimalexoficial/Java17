@@ -1,3 +1,5 @@
+package More;
+
 public class Overloading {
     public static void main(String[] args) {
         System.out.println("New score is " + calculateScore("Tim", 500));

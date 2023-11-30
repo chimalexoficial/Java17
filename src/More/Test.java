@@ -1,3 +1,5 @@
+package More;
+
 public class Test {
     public static void main(String[] args) {
         toMilesPerHour(25.42);
