@@ -4,6 +4,15 @@ public class MotorBike {
     //state
     private int speed;
 
+    //default constructor
+    public MotorBike() {
+        this(0); //calling constructor inside no params constructor
+    }
+
+    public MotorBike(int speed) {
+        this.speed = speed;
+    }
+
     //behaviour
     public void start() {
         System.out.println("Bike started");
